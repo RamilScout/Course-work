@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         for (int i = 0; i < employees.length; i++) {
-            double salary = Math.round(20_000 + 50_000 * random.nextDouble());
+            double salary = Math.round(30_000 + 55_000 * random.nextDouble());
             employees[i] = new Employee("ФИО сотрудника " + i,
                     random.nextInt(1, 6), salary);
         }
