@@ -15,6 +15,7 @@ public class Main {
         employeeBook.changeSalaryByPercent(100, 1);
         System.out.println();
         employeeBook.printAll();
+        employeeBook.getEmployeeWithMinSalary();
 
     }
 }
