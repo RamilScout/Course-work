@@ -59,7 +59,7 @@ public class EmployeeBook {
             if (employee == null) {
                 continue;
             }
-            if (employee.getSalary() < min.getSalary()) {
+            if (min == null || employee.getSalary() < min.getSalary()) {
                 min = employee;
             }
         }
@@ -72,7 +72,7 @@ public class EmployeeBook {
             if (employee == null) {
                 continue;
             }
-            if (employee.getSalary() > max.getSalary()) {
+            if (max == null || employee.getSalary() > max.getSalary()) {
                 max = employee;
             }
         }
